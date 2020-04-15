@@ -1,0 +1,4 @@
+﻿  party.cpp
+D:\TIIT\party\party\party.cpp(5,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\TIIT\party\party\party.cpp(5,27): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  party.vcxproj -> D:\TIIT\party\Debug\party.exe
