@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#быть_самым_крупным_звёздным_скоплением_в_Галактике -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#быть_самым_крупным_звёздным_скоплением_в_Галактике">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#быть_третей_по_размеру -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#быть_третей_по_размеру">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#группы_галактик"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_вид -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_вид">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_галактик"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_туманностей"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#содержать -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#содержать">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#созвездия"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#состоять_в_созвездии -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#состоять_в_созвездии">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#созвездия"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_диаметр -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_диаметр">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_количество -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_количество">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_массу -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#иметь_массу">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_галактик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_галактик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_туманностей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_туманностей">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#группы_галактик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#группы_галактик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#диаметры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#диаметры"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#массы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#массы"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#созвездия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#созвездия"/>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#NGC_604 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#NGC_604">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#туманности"/>
+        <быть_самым_крупным_звёздным_скоплением_в_Галактике rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#NGC_604"/>
+        <иметь_вид rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#эмисионная"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#200_звёзд-гипергигантов"/>
+        <иметь_диаметр>13000 св.лет</иметь_диаметр>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Андромеды -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Андромеды">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <иметь_диаметр>200000 св.лет</иметь_диаметр>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Млечного_Пути -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Млечного_Пути">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <иметь_диаметр>100000 св.лет</иметь_диаметр>
+        <иметь_массу>5-10 М</иметь_массу>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Треугольника -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Треугольника">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#галактики"/>
+        <быть_третей_по_размеру rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#местная_группа"/>
+        <иметь_вид rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#спиральный_тип_Sc"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#NGC_604"/>
+        <состоять_в_созвездии rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Созвездие_Треугольника"/>
+        <иметь_диаметр>50000 св.лет</иметь_диаметр>
+        <иметь_массу>М</иметь_массу>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Созвездие_Треугольника -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Созвездие_Треугольника">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#созвездия"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Треугольника"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#местная_группа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#местная_группа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#группы_галактик"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Андромеды"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Млечного_Пути"/>
+        <содержать rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#Галактика_Треугольника"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#спиральный_тип_Sc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#спиральный_тип_Sc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_галактик"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#эмисионная -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#эмисионная">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#виды_туманностей"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#13000_св.лет -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#13000_св.лет">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#диаметры"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#200_звёзд-гипергигантов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#200_звёзд-гипергигантов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#50000_св.лет -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#50000_св.лет">
+        <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#диаметры"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

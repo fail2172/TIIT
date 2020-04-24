@@ -1,4 +1,3 @@
 ﻿  Settlement_work.cpp
-D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(13,20): warning C4018: <: несоответствие типов со знаком и без знака
-D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(33): warning C4715: arr_to_list: значение возвращается не при всех путях выполнения
+D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(15): warning C4715: end_of_edge: значение возвращается не при всех путях выполнения
   Settlement_work.vcxproj -> D:\TIIT\Settlement_work\Debug\Settlement_work.exe
