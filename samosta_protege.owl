@@ -282,6 +282,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#200_звёзд-гипергигантов">
         <rdf:type rdf:resource="http://www.semanticweb.org/salav/ontologies/2020/3/untitled-ontology-8#звёзды_гипергиганты"/>
+        <иметь_количество rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</иметь_количество>
     </owl:NamedIndividual>
     
 
