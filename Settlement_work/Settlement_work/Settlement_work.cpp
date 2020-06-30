@@ -1,6 +1,5 @@
 ﻿#include <iostream>
 #include <fstream>
-#include <vector>
 #include <Windows.h>
 using namespace std;
 int end_of_edge(int j, int v, int** arr, int row) {
@@ -59,10 +58,10 @@ int main() {
 			if (result[i] == true)
 				count_v++;
 		}
-		cout << "Количество точек сочленения : " << count_v << endl;
+		cout << "Количество шарниров графа : " << count_v << endl;
 		//Вывод вершин сочленения
 		if (count_v > 0) {
-			cout << "Номера вершин сочленения :\n";
+			cout << "Номера вершин шарниров :\n";
 			for (int i = 0; i < row; i++) {
 				if (result[i] == true)
 					cout << i + 1 << " ";

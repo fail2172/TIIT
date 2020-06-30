@@ -1,0 +1,5 @@
+﻿  laba3.cpp
+D:\TIIT\laba3\laba3\laba3.cpp(39,11): warning C4018: <: несоответствие типов со знаком и без знака
+D:\TIIT\laba3\laba3\laba3.cpp(81,53): warning C4018: <: несоответствие типов со знаком и без знака
+D:\TIIT\laba3\laba3\laba3.cpp(103,20): warning C4018: <: несоответствие типов со знаком и без знака
+  laba3.vcxproj -> D:\TIIT\laba3\Debug\laba3.exe

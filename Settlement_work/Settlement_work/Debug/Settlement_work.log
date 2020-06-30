@@ -1,4 +1,4 @@
 ﻿  Settlement_work.cpp
-D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(11): warning C4715: end_of_edge: значение возвращается не при всех путях выполнения
-D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(38): warning C4715: dfs: значение возвращается не при всех путях выполнения
+D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(37): warning C4715: dfs: значение возвращается не при всех путях выполнения
+D:\TIIT\Settlement_work\Settlement_work\Settlement_work.cpp(10): warning C4715: end_of_edge: значение возвращается не при всех путях выполнения
   Settlement_work.vcxproj -> D:\TIIT\Settlement_work\Debug\Settlement_work.exe
